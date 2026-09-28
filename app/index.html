@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dynamic Statement Builder</title>
+<script src="/vendor/pdfjs/pdf.min.js"></script>
+<style>
+:root{--navy:#0a2342;--ink:#1c2b3a;--muted:#66788a;--line:#d7dee6;--bg:#e6ebf1;--panel:#fff;--gold:#c4a35a;--ok:#1b7a4a;--err:#a3262a;--accent:#0b5cab;--docbg:#cfd6de}
+*{box-sizing:border-box}html,body{margin:0;height:100%}
+body{font:13px/1.45 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+.app{display:flex;flex-direction:column;height:100%}
+header.top{background:var(--navy);color:#fff;padding:8px 16px 7px;border-bottom:2px solid var(--gold)}
+header.top h1{font-size:15px;font-weight:650;margin:0}
+.brand-sub{font-size:11px;opacity:.7;margin-top:1px}
+.pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px;align-items:center}
+.pill{background:#16365c;color:#dce6f0;border:1px solid #2a4d73;padding:2px 8px;border-radius:2px;font-size:11px}
+.pill.gold{background:var(--gold);color:#111;font-weight:700;border:0}
+.pill.ok{background:#1b7a4a;color:#fff;border:0}
+.pill.warn{background:#c9a227;color:#111;border:0}
+.pill.err{background:#a3262a;color:#fff;border:0}
+.meta{font-size:11px;color:#c5d2e0}
+.shell{flex:1;display:grid;grid-template-columns:minmax(300px,28%) minmax(420px,1fr) minmax(260px,24%);min-height:0}
+.shell.left-collapsed{grid-template-columns:0 1fr minmax(260px,24%)}
+.shell.right-collapsed{grid-template-columns:minmax(300px,28%) 1fr 0}
+.shell.both-collapsed{grid-template-columns:0 1fr 0}
+.pane{min-width:0;min-height:0;overflow:auto;background:var(--panel)}
+.pane.left{border-right:1px solid var(--line)}
+.pane.right{border-left:1px solid var(--line);background:#f6f8fb}
+.pane.center{display:flex;flex-direction:column;background:var(--docbg);overflow:hidden}
+.pane-h{position:sticky;top:0;z-index:3;background:#f4f7fa;border-bottom:1px solid var(--line);padding:8px 12px;display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.pane-h.action-bar{flex-wrap:wrap;gap:6px;z-index:5}
+.action-bar-controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center;text-transform:none;letter-spacing:0;font-weight:650}
+.action-bar-controls button{padding:6px 10px;font-size:12px}
+.action-status{font-size:11px;color:var(--muted);font-weight:650;max-width:160px}
+.body{padding:12px 14px 32px}
+.group{border:1px solid var(--line);border-radius:4px;margin-bottom:8px;background:#fff}
+.group[open]>summary{background:#eef3f8;border-bottom:1px solid var(--line);color:var(--navy)}
+.group>summary{cursor:pointer;list-style:none;padding:9px 12px;font-weight:650;font-size:12px;background:#f4f7fa}
+.group>summary::-webkit-details-marker{display:none}
+.gbody{padding:10px 12px}
+label{display:block;font-size:11px;color:var(--muted);margin:8px 0 3px}
+input,textarea,select{width:100%;padding:7px 8px;border:1px solid var(--line);border-radius:3px;font:inherit}
+input.bad{border-color:#c98486;background:#fdf6f6}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+button{background:var(--accent);color:#fff;border:0;padding:8px 12px;border-radius:3px;cursor:pointer;font-weight:650;font-size:12px}
+button.sec{background:#4a5b6b}button.ghost{background:transparent;color:var(--navy);border:1px solid var(--line)}
+button.danger{background:transparent;color:var(--err);border:1px solid #e3c4c5}
+.btns{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;align-items:center}
+.quiet{font-size:11px;color:var(--muted)}
+.sort-mask{display:flex;flex-wrap:wrap;align-items:center;gap:1px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;line-height:1.2;padding:6px 4px;border:1px solid var(--line);border-radius:3px;background:#f7f9fb}
+.sort-lit{color:var(--muted);padding:0 1px;user-select:none}
+.sort-slot{width:14px;padding:3px 0;text-align:center;border:1px solid #c5d0db;border-radius:2px;font:inherit;font-weight:700}
+.sort-slot:focus{outline:2px solid var(--accent);border-color:var(--accent)}
+.toggle{display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px solid #eef2f6}
+.card{background:#f7f9fb;border:1px solid var(--line);border-radius:4px;padding:10px 12px}
+.hero-num{font-size:20px;font-weight:700;color:var(--navy)}
+.k{color:var(--muted);font-size:11px}.v{font-variant-numeric:tabular-nums;font-weight:650}
+.calc-row{display:flex;justify-content:space-between;padding:3px 0}
+.errbox{background:#fdf2f2;color:#7a1f22;border:1px solid #e3c4c5;padding:8px 10px;margin:8px 0;border-radius:3px}
+.warnbox{background:#fbf6e8;color:#6b4e10;border:1px solid #e4d4a6;padding:8px 10px;margin:8px 0;border-radius:3px}
+.okbox{background:#eef7f2;color:#1b7a4a;border:1px solid #b7d4c4;padding:8px 10px;margin:8px 0;border-radius:3px}
+.change{border-left:3px solid var(--gold);background:#fff;padding:8px 10px;margin:8px 0}
+.change .from{color:var(--muted);text-decoration:line-through}
+.toolbar{display:flex;gap:6px;align-items:center;padding:7px 10px;background:#2f3b46;color:#e8eef4;font-size:12px}
+.toolbar button{background:#44525e}
+.viewer{flex:1;overflow:auto;display:flex;justify-content:center;padding:18px}
+#pdfCanvas{background:#fff;box-shadow:0 8px 28px rgba(16,28,40,.22);max-width:100%}
+.tbl{width:100%;border-collapse:collapse;font-size:12px}
+.tbl th{text-align:left;font-size:10px;color:var(--muted);padding:4px 6px;border-bottom:1px solid var(--line)}
+.tbl td{padding:5px 6px;border-bottom:1px solid #eef2f6;vertical-align:top}
+.amt{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.txn-actions{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end}
+.txn-actions button{padding:3px 7px;font-size:11px}
+.tbl td.desc{word-break:break-word;max-width:140px}
+.iconbtn{padding:3px 6px;font-size:11px}
+.modal{position:fixed;inset:0;background:rgba(10,35,66,.35);display:flex;align-items:center;justify-content:center;z-index:20}
+.modal .sheet{width:460px;background:#fff;border-radius:6px;padding:16px}
+.adv{background:#fafbfc}#exportWarn{display:none;font-size:11px;color:#9a6b12}
+</style></head>
+<body>
+<div class="app">
+<header class="top">
+  <h1>Dynamic Statement Builder</h1>
+  <div class="brand-sub">Internal Staff Workstation · Innovation POC</div>
+  <div class="pills">
+    <span class="pill gold">DEMO / SAMPLE — NON-PRODUCTION</span>
+    <span class="pill">Composer POC v3</span>
+    <span class="pill" id="statusPill">Generating preview…</span>
+    <span class="meta">Period <b id="mPeriod">—</b> · Account <b id="mAcct">—</b> · Pages <b id="mPages">—</b> · Last generated <b id="mTime">—</b></span>
+  </div>
+</header>
+<div class="shell" id="shell">
+<aside class="pane left">
+  <div class="pane-h action-bar">
+    <span>Configure</span>
+    <div class="action-bar-controls">
+      <button class="primary" type="button" id="btnPreview" onclick="updatePreview()">Update Preview</button>
+      <button class="sec" type="button" id="btnExport" onclick="exportPdf()">Export PDF</button>
+      <span class="action-status" id="previewStateBar"></span>
+      <button class="ghost" type="button" onclick="collapse('left')">Hide</button>
+    </div>
+  </div>
+  <div class="body">
+    <div id="exportWarn">Export uses the last generated PDF. Draft changes are not in that file yet.</div>
+    <div class="quiet" style="margin-top:8px">
+      <button class="ghost" type="button" onclick="newStatement()">New Statement</button>
+      <button class="ghost" type="button" onclick="duplicateCurrent()">Duplicate</button>
+      <button class="ghost" type="button" onclick="resetCurrent()">Reset</button>
+    </div>
+    <div id="valBox"></div>
+    <label>Demo Scenario</label>
+    <div class="row2">
+      <select id="scenario">
+        <option value="testA">Reference Statement — Test A</option>
+        <option value="testB">Synthetic Scenario — Test B</option>
+        <option value="testC">Large-Value Stress — Test C</option>
+        <option value="testD">Manual-Data Scenario — Test D</option>
+      </select>
+      <button class="sec" type="button" onclick="loadFix(document.getElementById('scenario').value)">Load Scenario</button>
+    </div>
+    <details class="group" open><summary>Customer &amp; Account</summary><div class="gbody">
+      <label>Customer / business name</label><input id="name" oninput="onSimple('name', this.value)"/>
+      <label>Address</label><input id="addr" oninput="onSimple('addr', this.value)"/>
+      <label>City / State / ZIP</label><input id="city" oninput="onSimple('city', this.value)"/>
+      <label>Primary account</label><input id="account" oninput="onSimple('account', this.value)" onblur="padAccountField()"/>
+    </div></details>
+    <details class="group"><summary>Statement chrome</summary><div class="gbody">
+      <p class="quiet">Demo visuals only. Not live banking barcodes or routing data.</p>
+      <div class="toggle"><span>Show vertical barcode</span><input type="checkbox" id="flg_vbar" checked onchange="flag('show_vbar', this.checked)"/></div>
+      <div class="toggle"><span>Show horizontal barcode</span><input type="checkbox" id="flg_imb" checked onchange="flag('show_imb', this.checked)"/></div>
+      <div class="toggle"><span>Show routing/sort line</span><input type="checkbox" id="flg_sort" checked onchange="flag('show_sort_line', this.checked)"/></div>
+      <label>Routing / sort line (synthetic — only X slots are editable)</label>
+      <div id="sortMask" class="sort-mask" aria-label="Synthetic sort line mask"></div>
+      <p class="quiet" id="sortHint">Locked literals. Variable groups: 00XXXXXX · XXXXX · 6X. POC synthetic only — not a live routing line.</p>
+      <div class="btns">
+        <button class="sec" type="button" id="btnRandomize" onclick="randomizeSortLine()">Randomize</button>
+      </div>
+    </div></details>
+    <details class="group"><summary>Statement Period</summary><div class="gbody">
+      <div class="row2"><div><label>From</label><input id="fromDate" type="date" onchange="onPeriod()"/></div>
+      <div><label>To</label><input id="toDate" type="date" onchange="onPeriod()"/></div></div>
+      <p class="quiet" id="periodHint"></p>
+    </div></details>
+    <details class="group"><summary>Checking</summary><div class="gbody">
+      <label>Opening balance</label><input id="opening" type="number" step="0.01" oninput="onSimpleNum('opening', this.value)"/>
+      <div class="toggle"><span>Deposits and Additions</span><input type="checkbox" id="inc_deposits" checked onchange="toggleSec('deposits', this.checked)"/></div>
+      <div class="toggle"><span>Checks Paid</span><input type="checkbox" id="inc_checks" checked onchange="toggleSec('checks', this.checked)"/></div>
+      <div class="toggle"><span>ATM &amp; Debit Card</span><input type="checkbox" id="inc_cards" checked onchange="toggleSec('cards', this.checked)"/></div>
+      <div class="toggle"><span>Electronic Withdrawals</span><input type="checkbox" id="inc_electronic" checked onchange="toggleSec('electronic', this.checked)"/></div>
+      <div class="toggle"><span>Fees</span><input type="checkbox" id="inc_fees" checked onchange="toggleSec('fees', this.checked)"/></div>
+    </div></details>
+    <details class="group"><summary>Additional Components</summary><div class="gbody">
+      <div class="toggle"><span>Checking Summary</span><input type="checkbox" id="flg_summary" checked onchange="flag('show_summary', this.checked)"/></div>
+      <div class="toggle"><span>Fee notice 1</span><input type="checkbox" id="flg_fee1" checked onchange="flag('show_fee_notice_1', this.checked)"/></div>
+      <label>Fee notice 1</label>
+      <textarea id="fee1" rows="3" oninput="onFee('fee_notice_1', this.value)"></textarea>
+      <div class="toggle"><span>Fee notice 2</span><input type="checkbox" id="flg_fee2" checked onchange="flag('show_fee_notice_2', this.checked)"/></div>
+      <label>Fee notice 2</label>
+      <textarea id="fee2" rows="3" oninput="onFee('fee_notice_2', this.value)"></textarea>
+      <div class="toggle"><span>Generic notices</span><input type="checkbox" id="flg_notices" checked onchange="flag('show_notices', this.checked)"/></div>
+      <div class="toggle"><span>Rewards</span><input type="checkbox" id="flg_rewards" onchange="flag('rewards', this.checked)"/></div>
+      <div class="toggle"><span>Daily Ending Balance</span><input type="checkbox" id="flg_daily" onchange="flag('daily', this.checked)"/></div>
+      <div class="toggle"><span>Service Charge Summary</span><input type="checkbox" id="flg_service" onchange="flag('service', this.checked)"/></div>
+      <div class="toggle"><span>Savings data (not printed)</span><input type="checkbox" id="flg_savings" onchange="flag('savings', this.checked)"/></div>
+      <p class="quiet">Savings remains editable POC data only. It is not printed on the statement.</p>
+      <div id="compFields"></div>
+    </div></details>
+    <details class="group" open><summary>Transactions</summary><div class="gbody">
+      <input id="txnSearch" placeholder="Search transactions" oninput="renderTxns()"/>
+      <div id="txnBox"></div>
+    </div></details>
+    <details class="group" open><summary>Statement Summary</summary><div class="gbody">
+      <div class="card"><div class="k">Calculated Ending Balance</div><div class="hero-num" id="endBal">—</div>
+      <div class="quiet">Calculated from current draft</div><div id="sumBox"></div></div>
+    </div></details>
+    <details class="group adv"><summary>Advanced · Document Model</summary><div class="gbody">
+      <p class="quiet">POC / administrator tool. Staff do not normally edit JSON.</p>
+      <textarea id="jsonBox" rows="10" spellcheck="false" style="font-family:ui-monospace,monospace;font-size:11px"></textarea>
+      <div class="btns">
+        <button class="sec" type="button" onclick="jsonView()">View current JSON</button>
+        <button class="ghost" type="button" onclick="jsonCopy()">Copy</button>
+        <button class="sec" type="button" onclick="jsonValidate()">Validate JSON</button>
+        <button type="button" onclick="jsonApply()">Apply JSON</button>
+      </div><div id="jsonMsg"></div>
+    </div></details>
+  </div>
+</aside>
+<main class="pane center">
+  <div class="toolbar">
+    <button type="button" onclick="collapse('left')">Controls</button>
+    <button type="button" onclick="collapse('right')">Request</button>
+    <span style="flex:1" id="previewState">Generating preview…</span>
+    <button type="button" onclick="pdfPrev()">Previous</button>
+    <span id="pageInfo">—</span>
+    <button type="button" onclick="pdfNext()">Next</button>
+    <button type="button" onclick="pdfZoom(-0.15)">−</button>
+    <button type="button" onclick="pdfZoom(0.15)">+</button>
+    <button type="button" onclick="pdfFit('width')">Fit width</button>
+    <button type="button" onclick="pdfFit('page')">Fit page</button>
+    <button type="button" onclick="collapse('both')">Expand preview</button>
+  </div>
+  <div class="viewer"><canvas id="pdfCanvas"></canvas></div>
+</main>
+<aside class="pane right">
+  <div class="pane-h">Request Assistant</div>
+  <div class="body">
+    <p class="quiet">Describe how this statement should be configured. Financial facts are never invented.</p>
+    <label>Request</label>
+    <textarea id="nl" rows="6" placeholder="Create a statement covering January through March. Include deposits and savings, but exclude detailed debit-card activity."></textarea>
+    <div class="btns"><button type="button" onclick="propose()">Propose Changes</button></div>
+    <div id="proposal"></div>
+  </div>
+</aside>
+</div></div>
+<div id="modalHost"></div>
+<script src="/static-app.js"></script>
+</body></html>

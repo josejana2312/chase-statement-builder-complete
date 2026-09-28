@@ -1,0 +1,171 @@
+{
+  "period": "March 01, 2025 through March 31, 2025",
+  "account": "000555000012345",
+  "name": "NORTHWIND TRADING CO.",
+  "addr": "88 MARKET STREET SUITE 400",
+  "city": "SEATTLE, WA 98101",
+  "opening": 25000.0,
+  "blank_page": true,
+  "notices": [
+    "DEMO / SAMPLE \u2014 JPMorgan Chase Pitch. Synthetic Test D data only."
+  ],
+  "sections": [
+    {
+      "title": "DEPOSITS AND ADDITIONS",
+      "rows": [
+        {
+          "date": "03/03",
+          "desc": "Customer ACH Credit ACME PAYROLL",
+          "amount": 8200.0
+        },
+        {
+          "date": "03/10",
+          "desc": "Wire Credit From First National Correspondent Bank For Settlement Of Invoice 4419-A With An Extra-Long Memo Field Intended To Wrap Across Multiple Lines For Layout Stress",
+          "amount": 15750.25
+        },
+        {
+          "date": "03/18",
+          "desc": "Mobile Deposit",
+          "amount": 500.0
+        },
+        {
+          "date": "03/18",
+          "desc": "Mobile Deposit",
+          "amount": 125.5
+        },
+        {
+          "date": "03/28",
+          "desc": "Interest Credit",
+          "amount": 12.11
+        }
+      ]
+    },
+    {
+      "title": "CHECKS PAID",
+      "rows": [
+        {
+          "date": "03/05",
+          "desc": "Check 1001",
+          "amount": 250.0
+        },
+        {
+          "date": "03/12",
+          "desc": "Check 1002",
+          "amount": 1800.0
+        }
+      ]
+    },
+    {
+      "title": "ATM & DEBIT CARD WITHDRAWALS",
+      "card": true,
+      "rows": [
+        {
+          "date": "03/04",
+          "desc": "POS PURCHASE OFFICE SUPPLY WAREHOUSE SEATTLE WA",
+          "amount": 86.4
+        },
+        {
+          "date": "03/04",
+          "desc": "POS PURCHASE OFFICE SUPPLY WAREHOUSE SEATTLE WA",
+          "amount": 12.99
+        },
+        {
+          "date": "03/07",
+          "desc": "ATM WITHDRAWAL 4TH AND PIKE",
+          "amount": 200.0
+        },
+        {
+          "date": "03/15",
+          "desc": "Debit Card Recurring Software Subscription That Has A Very Long Merchant Descriptor Designed To Force Two Or Three Visual Lines In The Description Column",
+          "amount": 49.0
+        }
+      ]
+    },
+    {
+      "title": "ELECTRONIC WITHDRAWALS",
+      "rows": [
+        {
+          "date": "03/01",
+          "desc": "Online Payment To City Light",
+          "amount": 310.22
+        },
+        {
+          "date": "03/08",
+          "desc": "ACH Payroll",
+          "amount": 9400.0
+        },
+        {
+          "date": "03/22",
+          "desc": "Online Transfer To Savings",
+          "amount": 2000.0
+        }
+      ]
+    },
+    {
+      "title": "FEES AND OTHER WITHDRAWALS",
+      "rows": [
+        {
+          "date": "03/31",
+          "desc": "Service Fee",
+          "amount": 12.0
+        }
+      ]
+    }
+  ],
+  "rewards": {
+    "title": "REWARDS SUMMARY",
+    "card": "Chase Business Debit Card",
+    "date": "03/31",
+    "prewrapped": true,
+    "lines": [
+      "Earn bonus points on qualifying purchases this period.",
+      "Visit www.chase.com/ultimaterewards for program details."
+    ],
+    "points_label": "Debit Card ending 4410 - Total points balance as of 03/31/25",
+    "points": 1250
+  },
+  "daily_balances": [
+    {
+      "date": "03/03",
+      "amount": 33200.0
+    },
+    {
+      "date": "03/31",
+      "amount": 35277.25
+    }
+  ],
+  "service_charge": {
+    "checks_debits": 10,
+    "deposits_credits": 5,
+    "deposited_items": 2,
+    "transaction_total": 17,
+    "service_fee": 12.0,
+    "service_fee_credit": 0.0,
+    "excessive_fees": 0.0,
+    "net_service_fee": 12.0,
+    "total_service_fees": 12.0
+  },
+  "savings": {
+    "product": "CHASE BUSINESS SELECT HIGH YIELD SAVINGS",
+    "name": "NORTHWIND TRADING CO.",
+    "opening": 4100.0,
+    "rows": [
+      {
+        "date": "03/22",
+        "desc": "Online Transfer From Checking",
+        "amount": 2000.0
+      },
+      {
+        "date": "03/31",
+        "desc": "Interest Payment",
+        "amount": 1.85
+      }
+    ],
+    "apy": "0.05%",
+    "interest_period": "$1.85",
+    "interest_ytd": "$4.10",
+    "notices": [
+      "DEMO / SAMPLE savings notice for Test D only."
+    ]
+  }
+}

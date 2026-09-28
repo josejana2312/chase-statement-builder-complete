@@ -1,0 +1,1444 @@
+{
+  "period": "September 01, 2021 through September 30, 2021",
+  "account": "000000710753986",
+  "name": "ELEGANT CABINETRY, INC",
+  "addr": "5904 YORK LN",
+  "city": "DAVIE FL 33331",
+  "opening": 83597.12,
+  "sections": [
+    {
+      "id": "deposits",
+      "title": "DEPOSITS AND ADDITIONS",
+      "sign": 1,
+      "rows": [
+        {
+          "date": "09/02",
+          "desc": "Fed Wire Credit Via: Intercredit Bank N.A./067011812 B/O: Alexton International Limited B.V.I Ref: Chase Nyc/Ctr/Bnf= ELEGANT CABINETRY, INC  331384612/ Ac-000000042313 Rfb=O/B Intercredit Obi=Ibale-Tr 004/2011 Pago DE Mantenimiento Del Bimad: 0902Qmgft001003146 Trn: 5423309245Ff",
+          "amount": 4524.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Fed Wire Credit Via: Intercredit Bank N.A./067011812 B/O: Alexton International Limited Virgin Islands Ref: Chase Nyc/Ctr/Bnf= ELEGANT CABINETRY, INC  331384612/Ac-000000042313 Rfb=O/B Intercredit Obi= Mantenimiento .  FRANKLIN VALERIO  Imad: 0902Qmgft009000697 Trn: 2206609245Ff",
+          "amount": 5750.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 3920.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 2525.0
+        },
+        {
+          "date": "09/06",
+          "desc": "American Express Settlement 4098628803 CCD ID: 1134992250",
+          "amount": 3525.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 2800.0
+        },
+        {
+          "date": "09/07",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 6905.0
+        },
+        {
+          "date": "09/07",
+          "desc": "American Express Settlement 4098628803 CCD ID: 1134992250",
+          "amount": 830.0
+        },
+        {
+          "date": "09/09",
+          "desc": "Fed Wire Credit Via: Intercredit Bank N.A./067011812 B/O: Alexton International Limited Virgin Islands Ref: Chase Nyc/Ctr/Bnf= ELEGANT CABINETRY, INC  331384612/Ac-000000042313 Rfb=O/B Intercredit Obi= Mantenimiento .  FRANKLIN VALERIO  Imad: 0909Qmgft001002557 Trn: 4808209252Ff",
+          "amount": 5750.0
+        },
+        {
+          "date": "09/09",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 4715.0
+        },
+        {
+          "date": "09/12",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 450.0
+        },
+        {
+          "date": "09/13",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 5720.0
+        },
+        {
+          "date": "09/13",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 85.0
+        },
+        {
+          "date": "09/14",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 2905.0
+        },
+        {
+          "date": "09/16",
+          "desc": "Fed Wire Credit Via: Intercredit Bank N.A./067011812 B/O: Alexton International Limited Virgin Islands Ref: Chase Nyc/Ctr/Bnf= ELEGANT CABINETRY, INC  331384612/Ac-000000042313 Rfb=O/B Intercredit Obi= Mantenimiento .  FRANKLIN VALERIO  9/16/20 20  Imad: 0916Qmgft004002022 Trn: 3758109259Ff",
+          "amount": 4750.0
+        },
+        {
+          "date": "09/16",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 900.0
+        },
+        {
+          "date": "09/16",
+          "desc": "American Express Settlement 4098628803 CCD ID: 1134992250",
+          "amount": 900.0
+        },
+        {
+          "date": "09/19",
+          "desc": "American Express Settlement 4098628803 CCD ID: 1134992250",
+          "amount": 948.0
+        },
+        {
+          "date": "09/21",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 966.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Fed Wire Credit Via: Intercredit Bank N.A./067011812 B/O: Alexton International Limited Virgin Islands Ref: Chase Nyc/Ctr/Bnf= ELEGANT CABINETRY, INC  331384612/Ac-000000042313 Rfb=O/B Intercredit Obi= Mantenimiento .  FRANKLIN VALERIO  9/23/20 20  Imad: 0923Qmgft011001629 Trn: 3424809266Ff",
+          "amount": 3750.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 3950.0
+        },
+        {
+          "date": "09/27",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 7375.0
+        },
+        {
+          "date": "09/27",
+          "desc": "American Express Settlement 4098628803 CCD ID: 1134992250",
+          "amount": 8750.0
+        },
+        {
+          "date": "09/27",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 230.0
+        },
+        {
+          "date": "09/28",
+          "desc": "Fed Wire Credit Via: Intercredit Bank N.A./067011812 B/O: Alexton International Limited Bvi Ref: Chase Nyc/Ctr/Bnf= ELEGANT CABINETRY, INC  331384612/Ac-000000042313 Rfb=O/B Intercredit Obi=Saldo DE Mantenimiento Del Bote Correspondienimad: 0928Qmgft004002858 Trn: 5503109271Ff",
+          "amount": 1976.0
+        },
+        {
+          "date": "09/28",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 2175.0
+        },
+        {
+          "date": "09/30",
+          "desc": "Fed Wire Credit Via: Intercredit Bank N.A./067011812 B/O: Alexton International Limited Virgin Islands Ref: Chase Nyc/Ctr/Bnf= ELEGANT CABINETRY, INC  331384612/Ac-000000042313 Rfb=O/B Intercredit Obi= Mantenimiento .  FRANKLIN VALERIO  9/30/20 20  Imad: 0930Qmgft012001598 Trn: 4396909273Ff",
+          "amount": 3750.0
+        },
+        {
+          "date": "09/30",
+          "desc": "American Express Settlement 4098628803      CCD ID: 1134992250",
+          "amount": 10582.73
+        }
+      ],
+      "summary_label": "Deposits and Additions"
+    },
+    {
+      "id": "checks",
+      "title": "CHECKS PAID",
+      "sign": -1,
+      "rows": [
+        {
+          "date": "09/13",
+          "desc": "^",
+          "amount": 170.0,
+          "check_no": "1151"
+        }
+      ],
+      "summary_label": "Checks Paid"
+    },
+    {
+      "id": "cards",
+      "title": "ATM & DEBIT CARD WITHDRAWALS",
+      "sign": -1,
+      "card": true,
+      "rows": [
+        {
+          "date": "09/01",
+          "desc": "Card Purchase 08/30 Hess 09565 N. Bay Villag FL Card 8594",
+          "amount": 55.0
+        },
+        {
+          "date": "09/01",
+          "desc": "Card Purchase 08/31 Gray Taxidermy Inc Pompano Beach FL Card 3298",
+          "amount": 424.0
+        },
+        {
+          "date": "09/01",
+          "desc": "Card Purchase 08/31 Pizza Fusion FT Laud FT Lauderda FL Card 3298",
+          "amount": 30.4
+        },
+        {
+          "date": "09/01",
+          "desc": "Card Purchase 08/31 Recreation Department Miami FL Card 8594",
+          "amount": 400.0
+        },
+        {
+          "date": "09/01",
+          "desc": "Card Purchase 08/31 Siam Rice Thai And S Miami Shore FL Card 3298",
+          "amount": 59.7
+        },
+        {
+          "date": "09/01",
+          "desc": "Card Purchase With Pin 09/01 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 48.2
+        },
+        {
+          "date": "09/02",
+          "desc": "Card Purchase 09/01 Miami Beach Marina Miami Beach FL Card 3298",
+          "amount": 44.94
+        },
+        {
+          "date": "09/02",
+          "desc": "Card Purchase 09/01 Mtsinaimedicalcomplex Miamibeach FL Card 8594",
+          "amount": 5.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Card Purchase 09/01 J2 *Efax Plus Servic 323-817-320 CA Card 8594",
+          "amount": 16.95
+        },
+        {
+          "date": "09/02",
+          "desc": "Card Purchase 09/01 Uscg Abstract/Title 800-799-8362 WV Card 8594",
+          "amount": 4.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Card Purchase 09/01 Web Pay-Court-Ticket 305-3751983 FL Card 8594",
+          "amount": 63.0
+        },
+        {
+          "date": "09/02",
+          "desc": "ATM Withdrawal 09/01 1801 Alton Rd Miami FL Card 3298",
+          "amount": 200.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Card Purchase With Pin 09/02 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 56.13
+        },
+        {
+          "date": "09/02",
+          "desc": "Card Purchase With Pin 09/02 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 31.65
+        },
+        {
+          "date": "09/02",
+          "desc": "Non-Chase ATM Withdraw 09/02 *Alton Road Miami Beach FL Card 3298",
+          "amount": 403.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/01 Sunpass Operations 561-2189574 FL Card 8594",
+          "amount": 10.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/02 Hostgator Com 713-5745287 TX Card 3298",
+          "amount": 97.5
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/02 Shipstore At Mpt FT Lauderdale FL Card 3298",
+          "amount": 12.67
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/03 Miami Beach Meter PA Miami Beach FL Card 3298",
+          "amount": 3.5
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/02 Publix #794 Miami Shores FL Card 3298",
+          "amount": 17.88
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/03 Google*3980950772 Cc@Google.Com CA Card 3298",
+          "amount": 350.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/04 Metropcs 877-315-6074 TX Card 8594",
+          "amount": 50.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase With Pin 09/03 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 32.19
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase With Pin 09/03 Walgreens 9020 Bisca Miami Shore FL Card 8594",
+          "amount": 21.91
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase With Pin 09/03 Walgreens 12295 N. B North Miami FL Card 8594",
+          "amount": 5.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/04 Subway 00262097 Miami FL Card 8594",
+          "amount": 17.64
+        },
+        {
+          "date": "09/06",
+          "desc": "Non-Chase ATM Withdraw 09/04 401 Biscayne Blvd Miami FL Card 8594",
+          "amount": 103.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/04 Kmart 04295 North Miami FL Card 8594",
+          "amount": 11.74
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase 09/04 Flanigan's #20 N Miami FL Card 8594",
+          "amount": 68.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Non-Chase ATM Withdraw 09/05 9050 Biscayne Blvd Miami Shores FL Card 3298",
+          "amount": 402.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase With Pin 09/06 Hess 09565 N. Bay Villa FL Card 8594",
+          "amount": 64.75
+        },
+        {
+          "date": "09/06",
+          "desc": "Card Purchase With Pin 09/06 Kmart 4295 North Miami FL Card 8594",
+          "amount": 123.02
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 34.22
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/06",
+          "desc": "Recurring Card Purchase 09/02 8X8, Inc. 888-898-87 888-8988733 CA Card 3298",
+          "amount": 6.07
+        },
+        {
+          "date": "09/07",
+          "desc": "Card Purchase 09/06 Google*3980950772 Cc@Google.Com CA Card 3298",
+          "amount": 350.0
+        },
+        {
+          "date": "09/07",
+          "desc": "Card Purchase 09/06 Natl Vessel Doc Ctr Falling Wate WV Card 8594",
+          "amount": 25.0
+        },
+        {
+          "date": "09/07",
+          "desc": "Card Purchase 09/06 Subway 00008995 Miami FL Card 8594",
+          "amount": 13.11
+        },
+        {
+          "date": "09/07",
+          "desc": "Card Purchase 09/06 The Olive Gard00018390 Aventura FL Card 3298",
+          "amount": 52.18
+        },
+        {
+          "date": "09/07",
+          "desc": "Card Purchase With Pin 09/06 Sports Authori Aventura FL Card 8594",
+          "amount": 162.07
+        },
+        {
+          "date": "09/07",
+          "desc": "Non-Chase ATM Withdraw 09/07 9050 Biscayne Blvd Miami Shores FL Card 3298",
+          "amount": 402.0
+        },
+        {
+          "date": "09/07",
+          "desc": "Recurring Card Purchase 09/06 Dis*Wdw Pass Payment 888-701-410 CA Card 8594",
+          "amount": 91.06
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase 09/07 Steves Pizza North Miami FL Card 3298",
+          "amount": 5.72
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase 09/07 Shipstore At Mpt FT Lauderdale FL Card 3298",
+          "amount": 42.39
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase 09/07 Panera Bread #01002 North Miami FL Card 3298",
+          "amount": 21.1
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase 09/07 Mia Marina At Bayside Miami FL Card 3298",
+          "amount": 871.84
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase 09/07 Uscg-Mercht Marine 757-523-6721 VA Card 3298",
+          "amount": 95.0
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase 09/07 Subway 002844 Miami Beach FL Card 8594",
+          "amount": 16.9
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase With Pin 09/08 Asha Quik Mart Miami FL Card 8594",
+          "amount": 6.25
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase With Pin 09/08 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 156.54
+        },
+        {
+          "date": "09/08",
+          "desc": "Card Purchase With Pin 09/08 Target T2188 Target T2 Miami FL Card 8594",
+          "amount": 171.28
+        },
+        {
+          "date": "09/09",
+          "desc": "Card Purchase 09/07 Reward Won Miami Beach FL Card 8594",
+          "amount": 1495.0
+        },
+        {
+          "date": "09/09",
+          "desc": "Card Purchase 09/07 Rewards Fishing Maimi Beach FL Card 8594",
+          "amount": 480.0
+        },
+        {
+          "date": "09/09",
+          "desc": "Card Purchase 09/08 Florida Healthy Kids 850-2011125 FL Card 8594",
+          "amount": 41.5
+        },
+        {
+          "date": "09/09",
+          "desc": "Non-Chase ATM Withdraw 09/09 1920 West Ave Miami Beach FL Card 3298",
+          "amount": 402.0
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/08 Mcdonald's F14372 Miami Beach FL Card 3298",
+          "amount": 10.56
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/08 100 % Key Biscayne R Key Biscayn FL Card 3298",
+          "amount": 26.02
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/09 Dellavision Marketin 786-3502700 FL Card 8594",
+          "amount": 600.0
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/09 Subway 00008995 Miami FL Card 8594",
+          "amount": 16.31
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/10 Subway 00245480 Miami FL Card 3298",
+          "amount": 14.47
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/10 DC Trail Glades Range Miami FL Card 3298",
+          "amount": 50.52
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/10 The Pit Restaurant Inc Miami FL Card 3298",
+          "amount": 101.88
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/10 Frozen - Biscayne Blvd Miami FL Card 3298",
+          "amount": 12.62
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/10 Frozen - Biscayne Blvd Miami FL Card 3298",
+          "amount": 2.59
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase 09/11 Amc Aventura 201005883 Aventura FL Card 3298",
+          "amount": 28.25
+        },
+        {
+          "date": "09/12",
+          "desc": "Non-Chase ATM Withdraw 09/12 401 Biscayne Blvd Miami FL Card 3298",
+          "amount": 103.0
+        },
+        {
+          "date": "09/12",
+          "desc": "Non-Chase ATM Withdraw 09/12 401 Biscayne Blvd Miami FL Card 3298",
+          "amount": 103.0
+        },
+        {
+          "date": "09/12",
+          "desc": "Card Purchase W/Cash 09/12 Publix Super Mar 905 Miami Shore FL Card 3298 Purchase $30.04 Cash Back $75.00",
+          "amount": 105.04
+        },
+        {
+          "date": "09/13",
+          "desc": "Card Purchase 09/12 Google*3980950772 Cc@Google.Com CA Card 3298",
+          "amount": 500.0
+        },
+        {
+          "date": "09/13",
+          "desc": "Card Purchase 09/11 Alisa's Painted Bistro Miami FL Card 3298",
+          "amount": 142.48
+        },
+        {
+          "date": "09/13",
+          "desc": "Card Purchase 09/12 Subway 002844 Miami Beach FL Card 8594",
+          "amount": 13.46
+        },
+        {
+          "date": "09/13",
+          "desc": "Card Purchase With Pin 09/13 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 23.44
+        },
+        {
+          "date": "09/14",
+          "desc": "Card Purchase 09/12 Metro Bistro Miami FL Card 3298",
+          "amount": 60.29
+        },
+        {
+          "date": "09/14",
+          "desc": "Card Purchase 09/13 Subway 002884 N Miami Bea FL Card 3298",
+          "amount": 16.36
+        },
+        {
+          "date": "09/14",
+          "desc": "Card Purchase 09/14 Miami Beach Meter PA Miami Beach FL Card 8594",
+          "amount": 1.75
+        },
+        {
+          "date": "09/14",
+          "desc": "Card Purchase 09/13 Chevron 00202663 Miami FL Card 8594",
+          "amount": 69.9
+        },
+        {
+          "date": "09/14",
+          "desc": "Card Purchase W/Cash 09/13 Publix Super Mar 905 Miami Shore FL Card 3298 Purchase $153.24 Cash Back $75.00",
+          "amount": 228.24
+        },
+        {
+          "date": "09/14",
+          "desc": "ATM Withdrawal 09/14 1801 Alton Rd Miami FL Card 3298",
+          "amount": 400.0
+        },
+        {
+          "date": "09/14",
+          "desc": "ATM Withdrawal 09/14 1801 Alton Rd Miami FL Card 3298",
+          "amount": 100.0
+        },
+        {
+          "date": "09/14",
+          "desc": "Recurring Card Purchase 09/13 Lexington Law 800-3418441 UT Card 3298",
+          "amount": 89.95
+        },
+        {
+          "date": "09/14",
+          "desc": "Recurring Card Purchase 09/13 Lexington Law 800-3418441 UT Card 3298",
+          "amount": 89.95
+        },
+        {
+          "date": "09/15",
+          "desc": "Card Purchase 09/14 Publix #714 Miami FL Card 3298",
+          "amount": 11.83
+        },
+        {
+          "date": "09/16",
+          "desc": "Card Purchase 09/15 Tu *Truecredit 800-493-3292 CA Card 3298",
+          "amount": 29.95
+        },
+        {
+          "date": "09/16",
+          "desc": "Card Purchase 09/15 Miami Beach Marina Miami Beach FL Card 3298",
+          "amount": 44.94
+        },
+        {
+          "date": "09/16",
+          "desc": "Card Purchase 09/15 Laz Parking 560791 Miami FL Card 3298",
+          "amount": 10.0
+        },
+        {
+          "date": "09/16",
+          "desc": "Non-Chase ATM Withdraw 09/16 1349 Dade Blvd Miami Beach FL Card 3298",
+          "amount": 63.5
+        },
+        {
+          "date": "09/16",
+          "desc": "Card Purchase With Pin 09/16 South Beach Hardgood Miami Beach FL Card 8594",
+          "amount": 4.8
+        },
+        {
+          "date": "09/16",
+          "desc": "Card Purchase With Pin 09/16 The Home Depot #6322 Miami FL Card 8594",
+          "amount": 85.95
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase 09/14 Burger And Beer Join Miami Beach FL Card 3298",
+          "amount": 57.49
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase 09/16 Google*2305637572 Cc@Google.Com CA Card 3298",
+          "amount": 166.83
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase 09/16 The Daily Creative Food Miami FL Card 3298",
+          "amount": 15.6
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase 09/16 Steves Pizza North Miami FL Card 8594",
+          "amount": 16.69
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase 09/17 Las Vacas Gordas Miami Beach FL Card 3298",
+          "amount": 167.3
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase With Pin 09/17 Kmart 4295 North Miami FL Card 8594",
+          "amount": 50.23
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase 09/17 Tu *Truecredit 800-493-3292 CA Card 3298",
+          "amount": 14.95
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase 09/17 Panera Bread #01002 North Miami FL Card 3298",
+          "amount": 27.68
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase With Pin 09/18 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 191.1
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase With Pin 09/19 Publix Super Mar 905 Miami Shore FL Card 8594",
+          "amount": 160.22
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase With Pin 09/19 Michaels #9823 Aventura FL Card 8594",
+          "amount": 58.93
+        },
+        {
+          "date": "09/19",
+          "desc": "Card Purchase With Pin 09/19 Petsmart Inc 354 Aventura FL Card 8594",
+          "amount": 83.78
+        },
+        {
+          "date": "09/20",
+          "desc": "Card Purchase With Pin 09/20 Hess 09565 N. Bay Villa FL Card 8594",
+          "amount": 61.59
+        },
+        {
+          "date": "09/20",
+          "desc": "Card Purchase With Pin 09/20 Whole Foods Mark 1020 Miami FL Card 8594",
+          "amount": 68.01
+        },
+        {
+          "date": "09/20",
+          "desc": "Card Purchase With Pin 09/20 Michaels #9823 Aventura FL Card 8594",
+          "amount": 67.56
+        },
+        {
+          "date": "09/20",
+          "desc": "Card Purchase With Pin 09/20 Spirit Halloween 603 North Miami FL Card 8594",
+          "amount": 39.49
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/19 Pura Vida Miami Beach FL Card 3298",
+          "amount": 20.08
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/20 Broward Medical And 954-5627558 FL Card 3298",
+          "amount": 40.0
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/20 Pediatric Associates Miami Beach FL Card 8594",
+          "amount": 5.0
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/20 Mtsinaimedicalcomplex Miamibeach FL Card 8594",
+          "amount": 5.0
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/20 Panera Bread #01002 North Miami FL Card 3298",
+          "amount": 17.84
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/20 West Marine #1757 N Miami FL Card 3298",
+          "amount": 173.82
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/20 Panera Bread #01002 North Miami FL Card 8594",
+          "amount": 30.12
+        },
+        {
+          "date": "09/21",
+          "desc": "Card Purchase 09/20 Sunshine 127 Miami FL Card 3298",
+          "amount": 23.27
+        },
+        {
+          "date": "09/21",
+          "desc": "Recurring Card Purchase 09/20 Best Buy 00005587 Aventura FL Card 8594",
+          "amount": 10.69
+        },
+        {
+          "date": "09/21",
+          "desc": "Recurring Card Purchase 09/20 Best Buy 00005587 Aventura FL Card 8594",
+          "amount": 10.69
+        },
+        {
+          "date": "09/21",
+          "desc": "Recurring Card Purchase 09/21 Nfi*Www.Netflix.Com/ Netflix.Com CA Card 8594",
+          "amount": 7.99
+        },
+        {
+          "date": "09/21",
+          "desc": "Recurring Card Purchase 09/20 Best Buy 00005587 Aventura FL Card 8594",
+          "amount": 7.48
+        },
+        {
+          "date": "09/21",
+          "desc": "Recurring Card Purchase 09/20 Best Buy 00005587 Aventura FL Card 8594",
+          "amount": 7.48
+        },
+        {
+          "date": "09/22",
+          "desc": "Card Purchase 09/14 Blulable 8886731321 CA Card 8594",
+          "amount": 199.0
+        },
+        {
+          "date": "09/22",
+          "desc": "Card Purchase 09/20 Cartronics Inc Miami FL Card 3298",
+          "amount": 269.55
+        },
+        {
+          "date": "09/22",
+          "desc": "Card Purchase 09/20 Halloween Mega Store Tampa FL Card 8594",
+          "amount": 47.05
+        },
+        {
+          "date": "09/22",
+          "desc": "Card Purchase 09/21 Epicure Market Miami Beach FL Card 3298",
+          "amount": 13.61
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/21 The Original Brookly Miami Beach FL Card 3298",
+          "amount": 14.04
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/21 Regal Cinemas South Bch Miami FL Card 3298",
+          "amount": 52.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/21 Regal Cinemas South Bch Miami FL Card 3298",
+          "amount": 30.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/21 Mbeach1 Lllp Miami Beach FL Card 3298",
+          "amount": 10.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/21 Mbeach1 Lllp Miami Beach FL Card 8594",
+          "amount": 10.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/21 Hess 09565 N. Bay Villag FL Card 3298",
+          "amount": 50.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/22 Panera Bread #01002 North Miami FL Card 3298",
+          "amount": 18.18
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/22 Bass Pro Shops Dania FL Card 3298",
+          "amount": 728.65
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/22 Starbucks Corp000796 Miami Shore FL Card 8594",
+          "amount": 12.26
+        },
+        {
+          "date": "09/23",
+          "desc": "Card Purchase 09/22 Publix #714 Miami FL Card 3298",
+          "amount": 72.4
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/22 Largo Seafood Grill Miami FL Card 3298",
+          "amount": 114.04
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/23 The Daily Creative Food Miami FL Card 3298",
+          "amount": 19.11
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/23 Miami Beach Meter PA Miami Beach FL Card 3298",
+          "amount": 15.0
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/23 Barnes & Noble #1857 N Miami FL Card 8594",
+          "amount": 87.21
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/23 Flanigan's #60 Surfside FL Card 8594",
+          "amount": 89.95
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/24 Venezia Pizza & Pizz Miami Beach FL Card 3298",
+          "amount": 7.18
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/24 The Olive Gard00018390 Aventura FL Card 8594",
+          "amount": 61.74
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase With Pin 09/24 Costco Whse #0182 North Miami FL Card 3298",
+          "amount": 682.56
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/25 Google*3980950772 Cc@Google.Com CA Card 3298",
+          "amount": 500.0
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/24 Gap #6325/The Miami FL Card 3298",
+          "amount": 26.73
+        },
+        {
+          "date": "09/26",
+          "desc": "Non-Chase ATM Withdraw 09/24 401 Biscayne Blvd Miami FL Card 3298",
+          "amount": 203.5
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/24 Stitch By Stitch - Bay Miami FL Card 3298",
+          "amount": 5.68
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/24 M And R Sweet Candy Sto Miami FL Card 3298",
+          "amount": 10.59
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/25 Crandon Mvl Key Biscayne FL Card 3298",
+          "amount": 40.37
+        },
+        {
+          "date": "09/26",
+          "desc": "Card Purchase 09/25 Publix #794 Miami Shores FL Card 3298",
+          "amount": 130.48
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase 09/26 Diabetes &Thyroid Car Plantation FL Card 8594",
+          "amount": 100.0
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase 09/26 Pizza Fusion FT Laud FT Lauderda FL Card 3298",
+          "amount": 35.7
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase 09/26 Capt Harrys Fishing S Miami FL Card 3298",
+          "amount": 243.09
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase 09/26 Capt Harrys Fishing S Miami FL Card 8594",
+          "amount": 28.11
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase With Pin 09/27 Publix Super Mar 4870 Miami FL Card 8594",
+          "amount": 45.65
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase With Pin 09/27 Gap USA N. Miami Beac FL Card 8594",
+          "amount": 172.89
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase With Pin 09/27 Jcpenney Store 2071 Aventura FL Card 8594",
+          "amount": 42.0
+        },
+        {
+          "date": "09/27",
+          "desc": "Card Purchase With Pin 09/27 Claire's Boutiq 1957 N Miami Bea FL Card 8594",
+          "amount": 46.55
+        },
+        {
+          "date": "09/28",
+          "desc": "Card Purchase 09/27 Los Ranchos Restaurant Miami FL Card 3298",
+          "amount": 30.69
+        },
+        {
+          "date": "09/28",
+          "desc": "Card Purchase 09/27 Subway 00492991 Miami FL Card 8594",
+          "amount": 10.7
+        },
+        {
+          "date": "09/28",
+          "desc": "Card Purchase 09/27 Kellys Cajun Grill Aventura FL Card 8594",
+          "amount": 12.55
+        },
+        {
+          "date": "09/28",
+          "desc": "Card Purchase 09/27 Ability Answering Se Bakersfield CA Card 3298",
+          "amount": 162.5
+        },
+        {
+          "date": "09/28",
+          "desc": "ATM Withdrawal 09/28 1025 71St St Miami FL Card 3298",
+          "amount": 200.0
+        },
+        {
+          "date": "09/29",
+          "desc": "Card Purchase 09/27 Godiva Chocolates #2 N Miami Bea FL Card 8594",
+          "amount": 12.41
+        },
+        {
+          "date": "09/29",
+          "desc": "Card Purchase 09/28 Natl Vessel Doc Ctr Falling Wate WV Card 3298",
+          "amount": 25.0
+        },
+        {
+          "date": "09/30",
+          "desc": "Card Purchase 09/28 Rancho Grande North Miami Beach FL Card 3298",
+          "amount": 49.15
+        },
+        {
+          "date": "09/30",
+          "desc": "Card Purchase 09/28 Chevron 00047622 Miami Beach FL Card 3298",
+          "amount": 50.0
+        },
+        {
+          "date": "09/30",
+          "desc": "Card Purchase 09/29 Venezia Pizza & Pizz Miami Beach FL Card 3298",
+          "amount": 6.52
+        },
+        {
+          "date": "09/30",
+          "desc": "Card Purchase 09/29 Walgreens #1532 Miami Beach FL Card 3298",
+          "amount": 6.73
+        },
+        {
+          "date": "09/30",
+          "desc": "Card Purchase           09/29 Hooters of Bayside Miami FL Card 3298",
+          "amount": 38.82
+        }
+      ],
+      "summary_label": "ATM & Debit Card Withdrawals"
+    },
+    {
+      "id": "electronic",
+      "title": "ELECTRONIC WITHDRAWALS",
+      "sign": -1,
+      "rows": [
+        {
+          "date": "09/01",
+          "desc": "Rcg Infosoft Pvt Iat Paypal 582J256Lt9Tcq Web ID: 770510487C",
+          "amount": 810.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Merch Svc Bkcrd Fees 899000001725249 CCD ID: 1246827607",
+          "amount": 10.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Paymentech Fee 5322298 CCD ID: 1020401225",
+          "amount": 126.75
+        },
+        {
+          "date": "09/06",
+          "desc": "American Express Axp Discnt 4098628803 CCD ID: 1134992250",
+          "amount": 50.51
+        },
+        {
+          "date": "09/06",
+          "desc": "Merchant Bnkcd Fee 434367702884 CCD ID: 8752044092",
+          "amount": 29.95
+        },
+        {
+          "date": "09/12",
+          "desc": "American Express Collection 4098628803 CCD ID: 1134992250",
+          "amount": 115.0
+        },
+        {
+          "date": "09/15",
+          "desc": "Paypal Inst Xfer 582J257M8LA36 Web ID: Paypalsi66",
+          "amount": 350.0
+        },
+        {
+          "date": "09/15",
+          "desc": "Mdws M-Dwasdpmt 000000258099247 Tel ID: 59-6000573",
+          "amount": 120.0
+        },
+        {
+          "date": "09/16",
+          "desc": "Rcg Infosoft Pvt Iat Paypal 582J257Plzq6J Web ID: 770510487C",
+          "amount": 550.0
+        },
+        {
+          "date": "09/16",
+          "desc": "Paypal Inst Xfer 582J257M9Xnes Web ID: Paypalsi66",
+          "amount": 17.57
+        },
+        {
+          "date": "09/22",
+          "desc": "09/22 Online Payment 2173379138 To Ford Motor Credit",
+          "amount": 1100.0
+        },
+        {
+          "date": "09/22",
+          "desc": "09/22 Online Payment 2173379899 To Ford Motor Credit",
+          "amount": 700.0
+        },
+        {
+          "date": "09/22",
+          "desc": "Paymentech Deposit 5322298 CCD ID: 1020401225",
+          "amount": 75.0
+        },
+        {
+          "date": "09/23",
+          "desc": "09/23 Online Payment 2173817762 To Keybank",
+          "amount": 2000.0
+        },
+        {
+          "date": "09/26",
+          "desc": "Security Natl IN Ins Paymt G00 3487914 03 PPD ID: 2650109120",
+          "amount": 352.17
+        },
+        {
+          "date": "09/26",
+          "desc": "Paypal Inst Xfer 582J258Cbshfg Web ID: Paypalsi66",
+          "amount": 6.95
+        },
+        {
+          "date": "09/27",
+          "desc": "09/27 Online Transfer To Mma Xxxxxx2316 Transaction#: 2154394954",
+          "amount": 1000.0
+        },
+        {
+          "date": "09/27",
+          "desc": "Comcast Comcast 0444534111 Tel ID: C849560000",
+          "amount": 153.57
+        },
+        {
+          "date": "09/29",
+          "desc": "Paypal Inst Xfer 582J258Neqqvj Web ID: Paypalsi66 DESCRIPTION",
+          "amount": 640.0
+        }
+      ],
+      "summary_label": "Electronic Withdrawals"
+    },
+    {
+      "id": "fees",
+      "title": "FEES AND OTHER WITHDRAWALS",
+      "sign": -1,
+      "rows": [
+        {
+          "date": "09/02",
+          "desc": "Incoming Domestic Wire Fee",
+          "amount": 15.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Incoming Domestic Wire Fee",
+          "amount": 15.0
+        },
+        {
+          "date": "09/02",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/06",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/07",
+          "desc": "Check OR Supply Order PPD ID: 1410216800",
+          "amount": 18.95
+        },
+        {
+          "date": "09/07",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/09",
+          "desc": "09/09 Withdrawal",
+          "amount": 2440.0
+        },
+        {
+          "date": "09/09",
+          "desc": "Incoming Domestic Wire Fee",
+          "amount": 15.0
+        },
+        {
+          "date": "09/09",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/12",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/12",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/13",
+          "desc": "09/13 Withdrawal",
+          "amount": 200.0
+        },
+        {
+          "date": "09/16",
+          "desc": "Incoming Domestic Wire Fee",
+          "amount": 15.0
+        },
+        {
+          "date": "09/16",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/23",
+          "desc": "09/23 Withdrawal",
+          "amount": 1000.0
+        },
+        {
+          "date": "09/23",
+          "desc": "Incoming Domestic Wire Fee",
+          "amount": 15.0
+        },
+        {
+          "date": "09/26",
+          "desc": "Non-Chase ATM Fee-With",
+          "amount": 2.0
+        },
+        {
+          "date": "09/28",
+          "desc": "Incoming Domestic Wire Fee",
+          "amount": 15.0
+        },
+        {
+          "date": "09/29",
+          "desc": "09/29 Withdrawal",
+          "amount": 1000.0
+        },
+        {
+          "date": "09/30",
+          "desc": "Incoming Domestic Wire Fee",
+          "amount": 15.0
+        },
+        {
+          "date": "09/30",
+          "desc": "Service Fee",
+          "amount": 11.2
+        }
+      ],
+      "summary_label": "Fees and Other Withdrawals"
+    }
+  ],
+  "savings": {
+    "product": "CHASE BUSINESS SELECT HIGH YIELD SAVINGS",
+    "name": "JUMANJI INC",
+    "opening": 995.64,
+    "rows": [
+      {
+        "date": "09/27",
+        "desc": "Online Transfer From Chk Xxxxxx9149 Transaction#: 2154394954",
+        "amount": 1000.0
+      },
+      {
+        "date": "09/30",
+        "desc": "Interest Payment",
+        "amount": 0.04
+      }
+    ],
+    "apy": "0.04%",
+    "interest_period": "$0.04",
+    "interest_ytd": "$0.68",
+    "notices": [
+      "The monthly service fee for this account was waived as an added feature of Chase BusinessSelect Checking account.",
+      "You earned a higher interest rate on your Chase Business Select High Yield Savings account during this statement period because you had a qualifying Chase BusinessSelect Checking account.",
+      "30 deposited items are provided with your account each month. There is a $0.20 fee for each additional deposited item."
+    ]
+  },
+  "notices": [
+    "Chase BusinessSelect Checking allows up to 200 debits, credits, and deposited items per statement period. Your transaction total for this statement period was 228 and excessive transaction fees were applied. If this level of activity is typical, please contact us so that we can explore other product options for your business."
+  ],
+  "rewards": {
+    "title": "REWARDS SUMMARY",
+    "card": "Chase Business Debit Card",
+    "lines": [
+      "Earn up to 10 Ultimate Rewards bonus points for every dollar",
+      "you spend shopping online at the Ultimate Rewards Mall.",
+      "Visit www.chase.com/ultimaterewards today to learn more about your",
+      "featured offers and deals of the week. Also, on chase.com, you can",
+      "redeem your Ultimate Rewards points for cash, gift cards, travel",
+      "and merchandise."
+    ],
+    "points_label": "Debit Card ending 3298 - Total points balance as of 08/24/20",
+    "points": 0,
+    "date": "09/30",
+    "prewrapped": true
+  },
+  "daily_balances": [
+    {
+      "date": "09/01",
+      "amount": 81769.82
+    },
+    {
+      "date": "09/02",
+      "amount": 95097.15
+    },
+    {
+      "date": "09/06",
+      "amount": 102213.8
+    },
+    {
+      "date": "09/07",
+      "amount": 108832.43
+    },
+    {
+      "date": "09/08",
+      "amount": 107445.41
+    },
+    {
+      "date": "09/09",
+      "amount": 113034.91
+    },
+    {
+      "date": "09/12",
+      "amount": 112191.65
+    },
+    {
+      "date": "09/13",
+      "amount": 116947.27
+    },
+    {
+      "date": "09/14",
+      "amount": 118795.83
+    },
+    {
+      "date": "09/15",
+      "amount": 118314.0
+    },
+    {
+      "date": "09/16",
+      "amount": 124040.29
+    },
+    {
+      "date": "09/19",
+      "amount": 123977.49
+    },
+    {
+      "date": "09/20",
+      "amount": 123740.84
+    },
+    {
+      "date": "09/21",
+      "amount": 124347.38
+    },
+    {
+      "date": "09/22",
+      "amount": 121943.17
+    },
+    {
+      "date": "09/23",
+      "amount": 125630.64
+    },
+    {
+      "date": "09/26",
+      "amount": 123405.86
+    },
+    {
+      "date": "09/27",
+      "amount": 137893.3
+    },
+    {
+      "date": "09/28",
+      "amount": 141612.86
+    },
+    {
+      "date": "09/29",
+      "amount": 139805.45
+    },
+    {
+      "date": "09/30",
+      "amount": 153960.28
+    }
+  ],
+  "service_charge": {
+    "checks_debits": 200,
+    "deposits_credits": 28,
+    "deposited_items": 0,
+    "transaction_total": 228,
+    "service_fee": 15.0,
+    "service_fee_credit": -15.0,
+    "excessive_fees": 11.2,
+    "net_service_fee": 0.0,
+    "total_service_fees": 11.2
+  },
+  "blank_page": true
+}
